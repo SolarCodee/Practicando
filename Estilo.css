@@ -1,0 +1,40 @@
+.header {
+display:flex;
+background-color:gray;
+text-align: center;
+padding: 20px;
+border-radius: 5%;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: crimson;
+    
+}
+
+.tablas {
+    background-color: rgba(248, 242, 129, 0.748);
+    border:1px solid black;
+    border-spacing:3px;
+}
+
+.divGrilla {
+    float: center;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:12px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div2 {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.divbarra {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: right;
+}
